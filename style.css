@@ -1,0 +1,223 @@
+h2 {   
+    Color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+p{
+    background-color: bisque;
+    font-size: large;
+}
+
+h3{
+    text-align: center;
+    margin-left: 30px;
+}
+
+h1{
+    font-style: italic;
+    text-shadow: 2px 2px #ff0000;
+}
+div{
+    padding-left: 50px;
+    border: 5px solid red;
+
+}
+
+.rainbow { 
+    background: rgb(137, 180, 221);
+    font-size: 20px;
+    text-align: center;
+  }
+
+.largemouth{
+    border: 10px dashed green;
+    padding: 50px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#crappie{
+    border-top: 20px solid blue;
+    border-bottom: 20px solid gray;
+    border-left: 30px dashed yellow;
+    border-right: 30px dashed red;
+
+}
+
+#perch{
+    text-align: left;
+    color: white;
+    background-color: blueviolet;
+}
+
+
+div:hover {
+
+    color: rgb(233, 88, 21);
+    
+    }
+
+
+
+p{
+    width: 1000px;
+    height: 200px;
+    padding: 20px;
+    margin: 30px;
+    border: 19px dashed purple;
+}
+
+
+#para p {
+
+    color:#ff0000;
+
+}
+
+
+.smoke h4 {
+    text-align: right;
+}
+
+
+.fry h5 {
+    text-emphasis: bold;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+
+
+.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #2411cf;
+}
+
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+  }
+
+ 
+
+
+/*
+
+.box {
+    background-color: lightgrey;
+    width: 500px;
+    border: 35px solid yellowgreen;
+    padding: 100px;
+    margin: 50px;
+    }
+
+
+    p {
+        background-color: yellowgreen;
+        color: beige;
+        margin: 40px 100px 40px 50px;
+        } 
+
+
+
+
+p {
+    color: black;
+    }
+    h3 {
+    color: rgb(15, 15, 15);
+    }
+
+    .example {
+    color: red;
+    }
+    .example2 {
+    background: rgb(18, 19, 18);
+    }
+
+    a{
+        color: black;
+    }
+
+    .container a {
+        color: green;
+    }
+    p {
+        font-size: 32px!important;
+    }
+    p {
+        font-size: 12px
+    }
+nav li a {
+color: red;
+}
+
+nav a {
+color: green;
+}
+
+a:link {
+    color: red; 
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:active {
+    color: maroon;
+}
+
+
+div:hover {
+    color: rgb(41, 228, 41);
+
+}
+div.pseudoclass:hover {
+    color: red;
+}
+
+
+div {
+    background: red;
+    
+}
+
+span {
+    background: greenyellow;
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+}
+
+
+   
