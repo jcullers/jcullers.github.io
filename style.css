@@ -1,25 +1,34 @@
 h2 {   
-    Color: red;
+    Color: rgb(235, 228, 228);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
     }
 
 p{
     background-color: bisque;
     font-size: large;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
 
 h3{
-    text-align: center;
+    text-align: left;
     margin-left: 30px;
+    font-size: x-large;
 }
+
 
 h1{
     font-style: italic;
-    text-shadow: 2px 2px #ff0000;
+    text-emphasis: ;
 }
 div{
     padding-left: 50px;
-    border: 5px solid red;
+    
 
 }
 
@@ -58,14 +67,18 @@ div:hover {
     
     }
 
-
+    .container { width: 960px; margin: 0 auto; height: 500px; }
+    .container [class*='box'] { width:300px; height:200px; float: left; margin-right: 30px; }
+    .container .box1 { background-color: #000; }
+    .container .box2 { background-color: #999; }
+    .container .box3 { background-color: #333; margin-right: 0; }
 
 p{
     width: 1000px;
     height: 200px;
     padding: 20px;
     margin: 30px;
-    border: 19px dashed purple;
+    border: 19px solid rgb(226, 16, 16);
 }
 
 
@@ -85,7 +98,46 @@ p{
     text-emphasis: bold;
 }
 
+p {
+    color:rgb(207, 111, 175);
+}
 
+
+body {
+    background: lightblue;
+}
+
+     
+div {
+    background-color: rgb(251, 251, 251);
+}
+
+
+.list {
+    font-weight: bold;
+    color: white;
+}
+
+#list2 {
+    color: red
+}
+* {
+box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+/*
 div {
     width: 100px;
     height: 100px;
@@ -126,7 +178,7 @@ div {
  
 
 
-/*
+
 
 .box {
     background-color: lightgrey;
